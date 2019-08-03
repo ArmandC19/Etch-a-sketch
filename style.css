@@ -1,0 +1,23 @@
+.viewport {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container {
+  height:50vh;
+  width: 50vh;
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  border: solid black;
+}
+
+.box {
+  border: solid black 1px;
+}
+
+.hovering {
+  background-color: black;
+}
