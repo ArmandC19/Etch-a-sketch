@@ -12,12 +12,9 @@
   display: grid;
   grid-template-columns: repeat(16, 1fr);
   border: solid black;
+  margin: 1rem;
 }
 
 .box {
   border: solid black 1px;
-}
-
-.hovering {
-  background-color: black;
 }

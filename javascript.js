@@ -16,7 +16,11 @@ function changeBox (e){
 
 function resetBoxes (e){
   let allBoxes = container.querySelectorAll('.box');
-  allBoxes.forEach();
+  allBoxes.forEach(resetBox);
+}
+
+function resetBox (box){
+  box.style.backgroundColor = 'white';
 }
 
 createGrid(256);
